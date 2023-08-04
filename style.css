@@ -48,7 +48,6 @@ body {
     color: #ff9900;
 }
 
-
 /* Home Section Styles */
 #home {
     min-height: 100vh;
@@ -73,6 +72,16 @@ body {
     border-radius: 30px;
 }
 
+/* Styling for the About Section */
+#about img {
+    border-radius: 50%;
+    max-width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#about h2 {
+    color: #f86d03;
+}
 
 /* Responsive Styles */
 
