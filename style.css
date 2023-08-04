@@ -3,6 +3,8 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* navbar styles */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -45,6 +47,32 @@ body {
 .navbar-menu li a:hover {
     color: #ff9900;
 }
+
+
+/* Home Section Styles */
+#home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#home h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#home p {
+    font-size: 24px;
+}
+
+#home .text-info {
+    color: #007bff; /* Bootstrap primary color */
+}
+
+#home .btn {
+    border-radius: 30px;
+}
+
 
 /* Responsive Styles */
 
