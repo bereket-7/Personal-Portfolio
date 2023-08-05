@@ -146,6 +146,40 @@ body {
     font-style: italic;
 }
 
+
+/* Styling for the Contact Section */
+#contact h2 {
+    color: #f86d03;
+}
+
+#contact .form-control {
+    margin-bottom: 15px;
+}
+
+#contact .btn-primary {
+    background-color: #f86d03;
+    border-color: #f86d03;
+}
+
+.contact-info h4 {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 15px;
+    color: #666666;
+}
+
+.social-links a:last-child {
+    margin-right: 0;
+}
+
 /* Responsive Styles */
 
 @media screen and (max-width: 768px) {
