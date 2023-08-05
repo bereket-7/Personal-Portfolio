@@ -101,12 +101,30 @@ body {
 }
 
 .skill-name {
-    flex: 1; /* Allow the skill name to take remaining available space */
+    flex: 1; 
 }
 
 .progress-bar {
     height: 8px;
     border-radius: 4px;
+}
+
+/* projects */
+#projects h2 {
+    color: #f86d03;
+}
+
+.project-item {
+    margin-bottom: 40px;
+}
+
+.project-links a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.project-links a:last-child {
+    margin-right: 0;
 }
 
 /* Responsive Styles */
