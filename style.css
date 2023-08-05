@@ -109,7 +109,7 @@ body {
     border-radius: 4px;
 }
 
-/* projects */
+/* projects style  */
 #projects h2 {
     color: #f86d03;
 }
@@ -125,6 +125,25 @@ body {
 
 .project-links a:last-child {
     margin-right: 0;
+}
+
+
+/* education style */
+#education h2 {
+    color: #f86d03;
+}
+
+.education-item {
+    margin-bottom: 30px;
+}
+
+.education-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.education-item p.text-muted {
+    font-style: italic;
 }
 
 /* Responsive Styles */
