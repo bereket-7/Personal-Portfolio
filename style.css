@@ -83,6 +83,32 @@ body {
     color: #f86d03;
 }
 
+
+/* Styling for the Skills Section */
+#skills h2 {
+    color: #f86d03;
+}
+
+#skills ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#skills li {
+    margin-bottom: 20px;
+    display: flex; /* Display skill name and progress bar side by side */
+    align-items: center; /* Vertically align items */
+}
+
+.skill-name {
+    flex: 1; /* Allow the skill name to take remaining available space */
+}
+
+.progress-bar {
+    height: 8px;
+    border-radius: 4px;
+}
+
 /* Responsive Styles */
 
 @media screen and (max-width: 768px) {
