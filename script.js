@@ -27,14 +27,30 @@ document.getElementById("learn-more-btn").addEventListener("click", function () 
     stopTyping()
 })
 
-// JavaScript for smooth scrolling to top of the page
+// JavaScript for smooth scrolling to top of the page with progress indicator
 document.addEventListener('DOMContentLoaded', function () {
     var upArrow = document.querySelector('.up-arrow')
+
     upArrow.addEventListener('click', function () {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        })
+        var scrollToTop = function () {
+            var position = window.scrollY
+            if (position > 0) {
+                window.scrollTo(0, position - 20)
+                requestAnimationFrame(scrollToTop)
+            }
+        }
+        requestAnimationFrame(scrollToTop)
+    })
+
+    // Show the up arrow when scrolling down
+    window.addEventListener('scroll', function () {
+        var scrollPosition = window.scrollY
+        if (scrollPosition > 300) {
+            upArrow.classList.add('show-up-arrow')
+        } else {
+            upArrow.classList.remove('show-up-arrow')
+        }
     })
 });
+
 

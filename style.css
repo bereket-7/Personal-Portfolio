@@ -221,6 +221,9 @@ footer p:last-child {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+       opacity: 0;
+       visibility: hidden;
+       transition: opacity 0.3s, visibility 0.3s;
 }
 
 .up-arrow a {
@@ -229,7 +232,10 @@ footer p:last-child {
     text-decoration: none;
 }
 
-
+.up-arrow.show-up-arrow {
+    opacity: 1;
+    visibility: visible;
+}
 /* Styling for the Social Links */
 .social-links a {
     display: inline-block;
