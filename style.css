@@ -197,7 +197,61 @@ footer .social-links a {
     display: inline-block;
     font-size: 24px;
     margin-right: 15px;
-    color: #666666;
+    color: #06c42f;
+}
+
+footer .social-links a:last-child {
+    margin-right: 0;
+}
+
+footer p:last-child {
+    margin-bottom: 0;
+}
+
+/* Styling for the Up Arrow */
+.up-arrow {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #f86d03;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.up-arrow a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+
+/* Styling for the Social Links */
+.social-links a {
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 15px;
+    color: #0814b3; 
+}
+
+.social-links a:hover {
+    color: #f86d03; 
+}
+
+.social-links a.twitter:hover {
+    color: #1DA1F2; 
+}
+
+.social-links a.linkedin:hover {
+    color: #0A66C2; 
+}
+
+.social-links a.github:hover {
+    color: #4078C0; 
 }
 
 footer .social-links a:last-child {

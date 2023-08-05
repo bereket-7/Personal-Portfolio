@@ -25,6 +25,16 @@ startTyping()
 
 document.getElementById("learn-more-btn").addEventListener("click", function () {
     stopTyping()
-});
+})
 
+// JavaScript for smooth scrolling to top of the page
+document.addEventListener('DOMContentLoaded', function () {
+    var upArrow = document.querySelector('.up-arrow')
+    upArrow.addEventListener('click', function () {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        })
+    })
+});
 
