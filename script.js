@@ -51,6 +51,6 @@ document.addEventListener('DOMContentLoaded', function () {
             upArrow.classList.remove('show-up-arrow')
         }
     })
-});
+})
 
 
