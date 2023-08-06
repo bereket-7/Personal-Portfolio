@@ -1,4 +1,4 @@
-const roles = ["Full Stack Developer", "Blogger", "Software Tester", "Volunteer"]
+const roles = ["Full Stack Developer", "System Designer", "Software Tester"]
 let currentRoleIndex = 0
 let currentLetterIndex = 0
 let typingInterval
