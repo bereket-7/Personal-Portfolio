@@ -65,7 +65,7 @@ body {
 }
 
 #home .text-info {
-    color: #007bff; /* Bootstrap primary color */
+    color: #007bff;
 }
 
 #home .btn {
@@ -96,8 +96,8 @@ body {
 
 #skills li {
     margin-bottom: 20px;
-    display: flex; /* Display skill name and progress bar side by side */
-    align-items: center; /* Vertically align items */
+    display: flex;
+    align-items: center; 
 }
 
 .skill-name {
